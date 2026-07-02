@@ -11,7 +11,3 @@ while angka > 5 :
     print('hidup jokowi')
         
     
-
-
-
-
