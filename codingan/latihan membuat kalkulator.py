@@ -32,10 +32,9 @@ elif operator == "**":
 elif operator == "%":
     hasil = ke1 % ke2 
     print(f'hasilnya adalah={hasil}')
+
 else :
     print('kalo ngeinput yang bener mas!!!')
-
-
 
 
 

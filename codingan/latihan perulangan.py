@@ -71,13 +71,13 @@ while True:
         continue
     if count > sisi:
             break
-# while True:
-#     if count%2:
-#         spasi+=1
-#         print(" "*spasi,"*"*count)
-#         count -=1
-#     else:
-#         count -=1
-#     if count == 0:
-#         break
+while True:
+    if count%2:
+        spasi+=1
+        print(" "*spasi,"*"*count)
+        count -=1
+    else:
+        count -=1
+    if count == 0:
+        break
 
