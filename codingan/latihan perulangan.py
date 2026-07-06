@@ -71,6 +71,7 @@ while True:
         continue
     if count > sisi:
             break
+<<<<<<< HEAD
 while True:
     if count%2:
         spasi+=1
@@ -80,4 +81,15 @@ while True:
         count -=1
     if count == 0:
         break
+=======
+ while True:
+     if count%2:
+         spasi+=1
+         print(" "*spasi,"*"*count)
+         count -=1
+     else:
+         count -=1
+     if count == 0:
+         break
+>>>>>>> b5678445eaec425775c5de78e81c1582af6fa137
 
