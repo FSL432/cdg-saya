@@ -6,34 +6,34 @@
 #     print('coba lagi')
 
 # kalkulator sederhana
-print(10*"=" + " KALKULATOR SEDERHANA " + 10*"=")
-ke1 = float(input('masukan angka ke 1 ='))
-operator = input('operator (+,-,*,/, =)')
-ke2 = float(input("masukan angka ke dua ="))
+while True:
+  print(10*"=" + " KALKULATOR SEDERHANA " + 10*"=")
+  ke1 = float(input('masukan angka ke 1 ='))
+  operator = input('operator (+,-,*,/, =)')
+  ke2 = float(input("masukan angka ke dua ="))
 
 
 # percabangan nya
-
-if operator == "+":
+  if operator == "+":
     hasil = ke1 + ke2 
     print(f'hasilnya adalah={hasil}')
-elif operator == "-":
+  elif operator == "-":
     hasil = ke1 - ke2 
     print(f'hasilnya adalah={hasil}')
-elif operator == '*':
+  elif operator == '*':
     hasil = ke1 * ke2
     print(f'hasilnya adalah={hasil}')
-elif operator == "/":
+  elif operator == "/":
     hasil = ke1 / ke2 
     print(f'hasilnya adalah={hasil}')
-elif operator == "**":
+  elif operator == "**":
     hasil = ke1 ** ke2
     print(f'hasilnya adalah={hasil}')
-elif operator == "%":
+  elif operator == "%":
     hasil = ke1 % ke2 
     print(f'hasilnya adalah={hasil}')
 
-else :
+  else :
     print('kalo ngeinput yang bener mas!!!')
 
 
