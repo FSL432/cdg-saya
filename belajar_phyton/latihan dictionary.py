@@ -34,15 +34,15 @@ while True :
     print(f"\n{'KEY':<6} {'NAMA':<17} {'SKS':<3} {'LAHIR':<10}" ) 
     print("_"*50) 
 
-    for k in data_mahasiswa: 
+    for mahasigma in data_mahasiswa: 
      KEY = mahasiswa
-     NAMA = data_mahasiswa[k]['nama']
-     NIM = data_mahasiswa[k]['nim']
-     SKS = data_mahasiswa[k]['sks_lulus']
-     LAHIR = data_mahasiswa[k]['lahir'].strftime("%x")
+     NAMA = data_mahasiswa[mahasigma]['nama']
+     NIM = data_mahasiswa[mahasigma]['nim']
+     SKS = data_mahasiswa[mahasigma]['sks_lulus']
+     LAHIR = data_mahasiswa[mahasigma]['lahir'].strftime("%x")
 
-     print(F"{k:<1} {NAMA:<17} {SKS:<2} {LAHIR:<10}" ) 
-     print("\n")
+     print(F"{mahasigma:<1} {NAMA:<17} {SKS:<2} {LAHIR:<10}" ) 
+     
     sudah_selesai = input("Sudah selesai (selesai/belum)?")
     if sudah_selesai == "selesai":
        break 

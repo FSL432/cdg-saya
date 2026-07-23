@@ -35,4 +35,3 @@ print("masukan angka :",jawabanbenar2)
 
 
 
-
