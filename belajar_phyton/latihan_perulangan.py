@@ -62,23 +62,31 @@ sisi = 8
 # for i in range( tinggi,0,-1 ):
 #     print("*"*i)
 
-tinggi = int(input("masukan nilai tinggi ="))
-for n in range(1,tinggi + 1):
-    if n == 1:#ini awal tinggi
-        print(" "* (tinggi - n) + "&")
-    elif n == tinggi:#batas tinggi
-        print("/" * (2 * tinggi - 1))
-    else :#mengisi yang kosong nya
-        print(" " * (tinggi - n) + "?" + "=" * (2 * n - 3) + "#")    
+# tinggi = int(input("masukan nilai tinggi ="))
+# for n in range(1,tinggi + 1):
+#     if n == 1:#ini awal tinggi
+#         print(" "* (tinggi - n) + "&")
+#     elif n == tinggi:#batas tinggi
+#         print("/" * (2 * tinggi - 1))
+#     else :#mengisi yang kosong nya
+#         print(" " * (tinggi - n) + "?" + "=" * (2 * n - 3) + "#")    
 
-for n in range(tinggi,0,-1):
-    if n == 1:
-        print(" "* (tinggi - n) + "&")
-    elif n == tinggi:
-        print("/" * (2 * tinggi - 1))
-    else :
-        print(" " * (tinggi - n) + "?" + "=" * (2 * n - 3) + "#")    
+# for n in range(tinggi,0,-1):
+#     if n == 1:
+#         print(" "* (tinggi - n) + "&")
+#     elif n == tinggi:
+#         print("/" * (2 * tinggi - 1))
+#     else :
+#         print(" " * (tinggi - n) + "?" + "=" * (2 * n - 3) + "#")    
     
 
+tinggi = 5
+for i in range(1,tinggi + 1):
+    jarak_kosong = " " * (tinggi - i)
+    bintang = "*" * (2 * i - 1)
+    print(jarak_kosong + bintang)
 
-    
+for i in range(tinggi - 1,0,-1):
+    jarak_kosong = " " * (tinggi - i)
+    bintang = "*" * (2 * i -1)
+    print(jarak_kosong + bintang)

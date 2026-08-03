@@ -50,4 +50,4 @@ def math(*args,**kwargs):
 hasil = math(1,2,3,4,option = "tambah")
 print(f"ini hasil tambah ={hasil}")       
 hasil = math(1,2,3,4,option = "kali")       
-print(f"ini hasil kali ={hasil}")       
+print(f"ini hasil kali ={hasil}")
